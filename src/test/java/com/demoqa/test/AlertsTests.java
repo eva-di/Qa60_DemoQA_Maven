@@ -29,4 +29,6 @@ public class AlertsTests extends TestBase {
     public void sendMessageToAlert() {
         new AlertsPage(driver).sendMessageToAlert("Hello, World!").verifyMessage("Hello, World!");
     }
+
+
 }
