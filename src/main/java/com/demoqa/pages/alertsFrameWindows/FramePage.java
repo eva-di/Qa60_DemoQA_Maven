@@ -21,7 +21,7 @@ public class FramePage extends BasePage {
         return this;
     }
 
-    public FramePage switchToIframeBzIndex(int index) {
+    public FramePage switchToIframeByIndex(int index) {
         driver.switchTo().frame(index);
         return this;
     }

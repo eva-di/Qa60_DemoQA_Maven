@@ -18,7 +18,7 @@ public class IFrameTests extends TestBase {
     public void iFrameTest() {
         new SidePanel(driver).selectFrame();
         new FramePage(driver).returnListOfFrames()
-                .switchToIframeBzIndex(1)
+                .switchToIframeByIndex(1)
                 .verifyIframeByText("This is a sample page");
     }
 

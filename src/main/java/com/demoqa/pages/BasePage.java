@@ -14,7 +14,7 @@ import java.time.Duration;
 public class BasePage {
 
     public WebDriver driver;
-    JavascriptExecutor js;
+    public JavascriptExecutor js;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -32,17 +32,14 @@ public class BasePage {
             element.clear();
             element.sendKeys(text);
         }
-
     }
 
     public void clickWithJavaScript(WebElement element, int x, int y) {
         moveWithJS(x, y);
         click(element);
-
     }
 
     public void moveWithJS(int x, int y) {
-
         js.executeScript("window.scrollBy(" + x + ", " + y + ")");
     }
 
@@ -50,7 +47,6 @@ public class BasePage {
         moveWithJS(x, y);
         type(element, text);
     }
-
 
     public boolean shouldHaveText(WebElement element, String text, int time) {
         return new WebDriverWait(driver, Duration.ofSeconds(time))
