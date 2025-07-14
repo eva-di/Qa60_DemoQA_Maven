@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e86b67e-ee6a-4105-8992-8e857e4357e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/widgets/SelectMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/test/SelectTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SidePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alertsFrameWindows/FramePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/alertsFrameWindows/FramePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/test/AlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/test/AlertsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/test/IFrameTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/test/IFrameTests.java" afterDir="false" />
+    <list default="true" id="0e86b67e-ee6a-4105-8992-8e857e4357e7" name="Changes" comment="Project Updates 14.07.25">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +49,33 @@
     "TestNG.AlertsTests.alertWaitTest.executor": "Run",
     "TestNG.AlertsTests.alertWithSelectTest.executor": "Run",
     "TestNG.AlertsTests.sendMessageToAlert.executor": "Run",
+    "TestNG.ButtonsTests.doubleClickTest.executor": "Run",
+    "TestNG.ButtonsTests.rightClickTest.executor": "Run",
+    "TestNG.DragAndDropTests.actionDragMeTest.executor": "Run",
     "TestNG.IFrameTests.iFrameTest.executor": "Run",
     "TestNG.IFrameTests.iFrameTest2.executor": "Run",
     "TestNG.IFrameTests.nestedIFramesTest.executor": "Run",
+    "TestNG.JSExecutorTests.jsExecutorTest.executor": "Run",
+    "TestNG.LinksTests.checkAllLinksTest.executor": "Run",
+    "TestNG.LinksTests.checkBrokenImageTest.executor": "Run",
+    "TestNG.LinksTests.checkBrokenLinksTest.executor": "Run",
     "TestNG.LoginTest.loginPositiveTest.executor": "Run",
+    "TestNG.MenuTest.moveToMenuTest.executor": "Run",
     "TestNG.NewWindowTest.newTabTest.executor": "Run",
+    "TestNG.PracticeFormTests.createStudentAccount.executor": "Run",
     "TestNG.SearchBookTests.searchBookPositiveTest.executor": "Run",
+    "TestNG.SelectTests.multiSelectTest.executor": "Run",
     "TestNG.SelectTests.selectOldStyleTest.executor": "Run",
+    "TestNG.SelectTests.standardMultiSelectTest.executor": "Run",
+    "TestNG.SliderTests.sliderTest.executor": "Run",
+    "TestNG.ToolTipsTest.toolTipsTest.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SelectTests.selectOldStyleTest">
-    <configuration name="IFrameTests.iFrameTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PracticeFormTests.createStudentAccount">
+    <configuration name="LinksTests.checkAllLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Qa60_DemoQA_Maven" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +84,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.IFrameTests" />
-      <option name="METHOD_NAME" value="iFrameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.LinksTests" />
+      <option name="METHOD_NAME" value="checkAllLinksTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IFrameTests.iFrameTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LinksTests.checkBrokenImageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Qa60_DemoQA_Maven" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +102,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.IFrameTests" />
-      <option name="METHOD_NAME" value="iFrameTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.LinksTests" />
+      <option name="METHOD_NAME" value="checkBrokenImageTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IFrameTests.nestedIFramesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LinksTests.checkBrokenLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Qa60_DemoQA_Maven" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +120,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.IFrameTests" />
-      <option name="METHOD_NAME" value="nestedIFramesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.LinksTests" />
+      <option name="METHOD_NAME" value="checkBrokenLinksTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewWindowTest.newTabTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeFormTests.createStudentAccount" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Qa60_DemoQA_Maven" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +138,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.test" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.NewWindowTest" />
-      <option name="METHOD_NAME" value="newTabTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.test.PracticeFormTests" />
+      <option name="METHOD_NAME" value="createStudentAccount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PracticeFormTests.createStudentAccount" />
+        <item itemvalue="TestNG.LinksTests.checkBrokenImageTest" />
+        <item itemvalue="TestNG.LinksTests.checkBrokenLinksTest" />
         <item itemvalue="TestNG.SelectTests.selectOldStyleTest" />
-        <item itemvalue="TestNG.NewWindowTest.newTabTest" />
-        <item itemvalue="TestNG.IFrameTests.nestedIFramesTest" />
-        <item itemvalue="TestNG.IFrameTests.iFrameTest2" />
-        <item itemvalue="TestNG.IFrameTests.iFrameTest" />
+        <item itemvalue="TestNG.LinksTests.checkAllLinksTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +184,44 @@
       <option name="presentableId" value="Default" />
       <updated>1751876082807</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project Updates">
+      <option name="closed" value="true" />
+      <created>1752132034489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752132034489</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Project Updates">
+      <option name="closed" value="true" />
+      <created>1752132164471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752132164471</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Project Updates">
+      <option name="closed" value="true" />
+      <created>1752153561608</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752153561608</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Project Updates 14.07.25">
+      <option name="closed" value="true" />
+      <created>1752492763898</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752492763898</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project Updates" />
+    <MESSAGE value="Project Updates 14.07.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Updates 14.07.25" />
   </component>
 </project>
