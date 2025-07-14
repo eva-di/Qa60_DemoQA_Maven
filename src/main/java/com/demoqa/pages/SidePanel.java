@@ -7,6 +7,7 @@ import com.demoqa.pages.bookstore.LoginPage;
 import com.demoqa.pages.elements.ButtonsPage;
 import com.demoqa.pages.elements.LinksPage;
 import com.demoqa.pages.elements.TextBoxPage;
+import com.demoqa.pages.forms.PracticeFormPage;
 import com.demoqa.pages.interactions.DroppablePage;
 import com.demoqa.pages.widgets.MenuPage;
 import com.demoqa.pages.widgets.SelectMenuPage;
@@ -122,5 +123,13 @@ public class SidePanel extends BasePage {
     public LinksPage selectBrokenLinksImages() {
         clickWithJavaScript(broken, 0, 300);
         return new LinksPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Practice Form']")
+    WebElement practiceForm;
+    public PracticeFormPage selectPracticeForm() {
+        click(practiceForm);
+
+        return new PracticeFormPage(driver);
     }
 }

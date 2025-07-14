@@ -45,4 +45,12 @@ public class HomePage extends BasePage {
         clickWithJavaScript(elements, 0, 300);
         return new SidePanel(driver);
     }
+
+    @FindBy(css = ".card:nth-child(2)")
+    WebElement forms;
+    public SidePanel getForms() {
+        clickWithJavaScript(forms, 0, 300);
+        return new SidePanel(driver);
+
+    }
 }

@@ -25,4 +25,10 @@ public class LinksTests extends TestBase{
         new SidePanel(driver).selectBrokenLinksImages();
         new LinksPage(driver).checkBrokenLinks();
     }
+
+    @Test
+    public void  checkBrokenImageTest() {
+        new SidePanel(driver).selectBrokenLinksImages();
+        new LinksPage(driver).checkBrokenImages();
+    }
 }
