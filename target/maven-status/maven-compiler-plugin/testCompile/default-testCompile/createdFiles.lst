@@ -1,0 +1,16 @@
+com\demoqa\test\AlertsTests.class
+com\demoqa\test\SearchBookTests.class
+com\demoqa\test\NewWindowTest.class
+com\demoqa\test\LoginTest.class
+com\demoqa\test\IFrameTests.class
+com\demoqa\test\TestBase.class
+com\demoqa\test\TextBoxTest.class
+com\demoqa\test\PracticeFormTests.class
+com\demoqa\test\ButtonsTests.class
+com\demoqa\test\JSExecutorTests.class
+com\demoqa\test\SliderTests.class
+com\demoqa\test\LinksTests.class
+com\demoqa\test\SelectTests.class
+com\demoqa\test\MenuTest.class
+com\demoqa\test\DragAndDropTests.class
+com\demoqa\test\ToolTipsTest.class

@@ -3,6 +3,7 @@ package com.demoqa.test;
 import com.demoqa.pages.HomePage;
 import com.demoqa.pages.SidePanel;
 import com.demoqa.pages.forms.PracticeFormPage;
+import com.demoqa.utils.DataProviders;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -14,22 +15,31 @@ public class PracticeFormTests extends TestBase {
         new SidePanel(driver).selectPracticeForm().hideIFrames();
     }
 
-    @Test
-    public void createStudentAccount() {
-        new PracticeFormPage(driver).enterPersonalData("Ana", "Smith", "test@gmail.com", "1234567890")
+    @Test(dataProviderClass = DataProviders.class, dataProvider = "addNewStudentWithCsv")
+    public void createStudentAccount(String name, String lastName, String email, String phone) {
+        new PracticeFormPage(driver).enterPersonalData(name, lastName, email, phone)
                 .selectGender("Female")
                 .enterDateOfBirthday("16 Aug 1987")
                 .addSubject(new String[]{"Maths", "Chemistry"})
-//                .selectHobby(new String[]{"Sport", "Music"})
-//                .uploadFile("C:/Tools/cat_img.jpg")
-//                .inputState("NCR")
-//                .inputCity("Delhi")
-//                .submit()
-//                .verifySuccessRegistration("")
-                ;
-
-
+                .selectHobby(new String[]{"Sports", "Music"})
+                .uploadFile("C:/Tools/cat_img.jpg")
+                .inputState("NCR")
+                .inputCity("Delhi")
+                .submit()
+                .verifySuccessRegistration("Thanks for submitting the form");
     }
 
-
+    @Test
+    public void createStudentAccountWithSelectDate() {
+        new PracticeFormPage(driver).enterPersonalData("Ana", "Smith", "test@gmail.com", "1234567890")
+                .selectGender("Female")
+                .selectDate("August", "1987", "16")
+                .addSubject(new String[]{"Maths", "Chemistry"})
+                .selectHobby(new String[]{"Sports", "Music"})
+                .uploadFile("C:/Tools/cat_img.jpg")
+                .inputState("NCR")
+                .inputCity("Delhi")
+                .submit()
+                .verifySuccessRegistration("Thanks for submitting the form");
+    }
 }
